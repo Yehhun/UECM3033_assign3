@@ -10,8 +10,8 @@ def gausslegendre(f, a, b, n=20):
     ans = 0
     # Edit here to implement your code
     x,y = np.polynomial.legendre.leggauss(n)
-    x_transform = ((b-a)*x*0.5) + ((b+a)*0.5)    
-    ans = sum(y*f(x_transform))*((b-a)*0.5)
+    z = ((b-a)*x*0.5) + ((b+a)*0.5)    
+    ans = sum(y*f(z))*((b-a)*0.5)
 
     return ans
 
