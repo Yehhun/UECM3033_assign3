@@ -54,7 +54,7 @@ Put your graphs here and explain.
 
 ![Graph_of_y0_and_y1_1.jpg](Graph_of_y0_and_y1_1.jpg)
 
-The above graph shows that the number of prey, y0=0.1 and the number of predator, y1=1.0 againts Year t. Here, we can see that number of prey gradually increses when number of predetor decreases.
+The above graph shows that the number of prey, y0=0.1 and the number of predator, y1=1.0 againts Year t. Here, we can see that number of prey gradually increases when number of predetor decreases.
 
 ![Graph_of_y0_and_y1_11.jpg](Graph_of_y0_and_y1_11.jpg)
 
