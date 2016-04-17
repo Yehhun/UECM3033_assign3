@@ -66,7 +66,9 @@ After changing the initial value from 0.1 to 0.11, we hardly can see that the nu
 By comparing left picture and right picture, although there is not much a difference, we can see that the line is higher a bit, which mean there is more predator to prey after changing from 0.1 to 0.11.
 
 Is the system of ODE sensitive to initial condition? Explain.
+
 This system of ODE is not sensitive to the initial condition. There is only a small change between the graph when the initial value condition change from 0.1 to 0.11.
+
 -----------------------------------
 
 <sup>last modified:  17 April 2016</sup>
