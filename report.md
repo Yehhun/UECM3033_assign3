@@ -63,7 +63,7 @@ After changing the initial value from 0.1 to 0.11, we hardly can see that the nu
 ![Graph_of_y1_against_y0_1.jpg](Graph_of_y1_against_y0_1.jpg)
 ![Graph_of_y1_against_y0_2.jpg](Graph_of_y1_against_y0_2.jpg)
 
-By comparing left picture and right picture, although there is not much a difference, we can see that the line is higher a bit, which mean there is more predator to prey.
+By comparing left picture and right picture, although there is not much a difference, we can see that the line is higher a bit, which mean there is more predator to prey after changing from 0.1 to 0.11.
 
 Is the system of ODE sensitive to initial condition? Explain.
 
