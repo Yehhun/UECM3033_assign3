@@ -58,10 +58,12 @@ The above graph shows that the number of prey, y0=0.1 and the number of predator
 
 ![Graph_of_y0_and_y1_11.jpg](Graph_of_y0_and_y1_11.jpg)
 
-After changing the initial value from 0.1 to 0.11, we hardly can see that the number of prey increases compare with previous graph.
+After changing the initial value from 0.1 to 0.11, we hardly can see that the number of prey and predator increases compare with previous graph.
 
 ![Graph_of_y1_against_y0_1.jpg](Graph_of_y1_against_y0_1.jpg)
 ![Graph_of_y1_against_y0_2.jpg](Graph_of_y1_against_y0_2.jpg)
+
+By comparing left picture and right picture, although there is not much a difference, we can see that the line is higher a bit, which mean there is more predator to prey.
 
 Is the system of ODE sensitive to initial condition? Explain.
 
