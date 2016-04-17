@@ -9,7 +9,7 @@ def gausslegendre(f, a, b, n=20):
     # Edit here to implement your code
     x,w = np.polynomial.legendre.leggauss(n)
     z = ((b-a)*x*0.5) + ((b+a)*0.5)    
-    ans = ((b-a)*0.5)*sum(w*f(z))
+    ans = ((b-a)*0.5)*np.dot(w,f(z))
 
     return ans
 
