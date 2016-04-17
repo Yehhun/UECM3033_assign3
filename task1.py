@@ -1,5 +1,3 @@
-
-
 import numpy as np
 import sympy as sy
 #Your optional code here
@@ -9,9 +7,9 @@ import sympy as sy
 def gausslegendre(f, a, b, n=20):
     ans = 0
     # Edit here to implement your code
-    x,y = np.polynomial.legendre.leggauss(n)
+    x,w = np.polynomial.legendre.leggauss(n)
     z = ((b-a)*x*0.5) + ((b+a)*0.5)    
-    ans = sum(y*f(z))*((b-a)*0.5)
+    ans = sum(w*f(z))*((b-a)*0.5)
 
     return ans
 
