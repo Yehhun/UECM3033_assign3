@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr 17 20:52:30 2016
-
-@author: HunT
-"""
 
 import numpy as np
 import sympy as sy
