@@ -51,9 +51,16 @@ The linspace function as t = np.linspace(0,5,100) is used to plot a smooth line 
 The odeint module in python, sol = odeint(bio_system,initial_y,t,args=(a, b)) is used to solve the ODE system.
 
 Put your graphs here and explain.
+
 ![Graph_of_y0_and_y1_1.jpg](Graph_of_y0_and_y1_1.jpg)
 
 The above graph shows that the number of prey, y0=0.1 and the number of predator, y1=1.0 againts Year t. Here, we can see that number of prey gradually increses when number of predetor decreases.
+
+![Graph_of_y0_and_y1_11.jpg](Graph_of_y0_and_y1_11.jpg)
+
+After changing the initial value from 0.1 to 0.11, we can see that the number of prey increases gradually through time.
+![Graph_of_y0_and_y1_1.jpg](Graph_of_y0_and_y1_1.jpg)
+![Graph_of_y0_and_y1_2.jpg](Graph_of_y0_and_y1_2.jpg)
 
 Is the system of ODE sensitive to initial condition? Explain.
 
