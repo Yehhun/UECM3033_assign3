@@ -7,9 +7,9 @@ import sympy as sy
 def gausslegendre(f, a, b, n=20):
     ans = 0
     # Edit here to implement your code
-    x,w = np.polynomial.legendre.leggauss(n)
-    z = ((b-a)*x*0.5) + ((b+a)*0.5)    
-    ans = ((b-a)*0.5)*np.dot(w,f(z))
+    x,w = np.polynomial.legendre.leggauss(n) # here x as the nodes and w as the weight for n 1 to 100
+    z = ((b-a)*x*0.5) + ((b+a)*0.5)          # transform definite integral z from -1 to 1
+    ans = ((b-a)*0.5)*np.dot(w,f(z))         # Jacobian transformation
 
     return ans
 
